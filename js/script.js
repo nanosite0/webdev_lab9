@@ -1,12 +1,12 @@
 function init(){
-//add your javascript between these two lines of code
-  console.log("Test");
-  var entry = document.getElementById("entrybutton");
+
+  const enter = document.getElementById("entrybutton");
+  var entry = document.getElementById("entryinput");
   
-  entry.addEventListener("click", entryClick);
+  enter.addEventListener("click", entryClick);
   
   function entryClick(){
-  alert("message");
+    alert("Leonardo: " + entry.value);
   }
 }
 
